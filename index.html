@@ -1,12 +1,44 @@
-<!DOCTYPE html>                  <!-- Объявляет что это HTML5 документ -->
-<html lang="ru">                 <!-- Язык страницы - русский -->
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">       <!-- Кодировка (кириллица будет отображаться правильно) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Для мобильных устройств -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>idkisl</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 3px solid white;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>БрБрПатапим</h1>
-    <p>Это мой первый сайт</p>
+    <div class="container">
+        <h1>БрБрПатапим</h1>
+        <p>Это мой первый сайт</p>
+        
+        <!-- Вот ваше фото -->
+        <img src="Screenshot_229.jpg" alt="Мой скриншот" width="600">
+        
+        <p>Мое крутое фото!</p>
+    </div>
 </body>
 </html>
